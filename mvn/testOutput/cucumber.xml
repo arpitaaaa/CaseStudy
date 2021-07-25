@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.063">
-<testcase classname="Login" name="To Login with valid input" time="11.8">
-<failure message="expected:&lt;Welcome [Nishanth05]&gt; but was:&lt;Welcome [Paul]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I enter valid Url.....................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.523">
+<testcase classname="Login" name="To Login with valid input" time="0.096">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I enter valid Url.....................................................passed
 When I enter valid UserName "Admin".........................................passed
 And I enter valid Password "admin123".......................................passed
 And click Submit............................................................passed
-Then I should see user name as "Welcome Nishanth05".........................failed
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<Welcome [Nishanth05]> but was:<Welcome [Paul]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at StepDefinition.login.i_should_see_user_name_as(login.java:40)
-	at ✽.I should see user name as "Welcome Nishanth05"(file:///C:/Automation/SDET/mvn/src/test/resources/FeatureFiles/login.feature:9)
+Then I should see user name as "Welcome Paul"...............................passed
+And I click on SignUp.......................................................undefined
+When I enter valid FirstName "".............................................skipped
+And I enter valid LastName ""...............................................skipped
+And I enter valid Email ""..................................................skipped
+And I enter valid UserName ""...............................................skipped
+And I enter valid Password ""...............................................skipped
+And I enter valid ConfirmPassword ""........................................skipped
+And I click on Register buttton.............................................skipped
+Then I should registered successfully.......................................skipped
 ]]></failure>
 </testcase>
 </testsuite>

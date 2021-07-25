@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-19T07:36:12.978Z",
+        "start_timestamp": "2021-07-23T06:31:36.350Z",
         "line": 3,
         "name": "To Login with valid input",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7463000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,6 @@
           },
           {
             "result": {
-              "duration": 206000000,
               "status": "passed"
             },
             "line": 6,
@@ -43,7 +42,6 @@
           },
           {
             "result": {
-              "duration": 170000000,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +59,6 @@
           },
           {
             "result": {
-              "duration": 3770000000,
               "status": "passed"
             },
             "line": 8,
@@ -73,21 +70,120 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Nishanth05]\u003e but was:\u003cWelcome [Paul]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefinition.login.i_should_see_user_name_as(login.java:40)\r\n\tat ✽.I should see user name as \"Welcome Nishanth05\"(file:///C:/Automation/SDET/mvn/src/test/resources/FeatureFiles/login.feature:9)\r\n",
-              "duration": 52000000,
-              "status": "failed"
+              "status": "passed"
             },
             "line": 9,
-            "name": "I should see user name as \"Welcome Nishanth05\"",
+            "name": "I should see user name as \"Welcome Paul\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Welcome Nishanth05\"",
+                  "val": "\"Welcome Paul\"",
                   "offset": 26
                 }
               ],
               "location": "StepDefinition.login.i_should_see_user_name_as(java.lang.String)"
             },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I click on SignUp",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter valid FirstName \"\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I enter valid LastName \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter valid Email \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I enter valid UserName \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.login.i_enter_valid_user_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I enter valid Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.login.i_enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I enter valid ConfirmPassword \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on Register buttton",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I should registered successfully",
+            "match": {},
             "keyword": "Then "
           }
         ]

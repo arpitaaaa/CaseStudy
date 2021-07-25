@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="960" started-at="2021-07-23T06:08:37Z" finished-at="2021-07-23T06:08:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@548b7f67]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="960" started-at="2021-07-23T06:08:37Z" finished-at="2021-07-23T06:08:38Z">
+      <class name="runner.Test_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Test_Runner@548b7f67]" name="setUpClass" is-config="true" duration-ms="774" started-at="2021-07-23T11:38:37Z" finished-at="2021-07-23T11:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Test_Runner@548b7f67]" name="tearDownClass" is-config="true" duration-ms="172" started-at="2021-07-23T11:38:38Z" finished-at="2021-07-23T11:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Test_Runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

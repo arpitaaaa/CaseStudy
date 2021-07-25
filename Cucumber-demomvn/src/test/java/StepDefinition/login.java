@@ -33,8 +33,8 @@ public class login {
 		driver.findElement(By.id("btnLogin")).click();
 		
 	}
-	@Then("I should see user name as {string}")
-	public void i_should_see_user_name_as(String LoginName) throws InterruptedException {
+	@Then("I should see user name {string}")
+	public void i_should_see_user_name(String LoginName) throws InterruptedException {
 		String actualName = driver.findElement(By.id("welcome")).getText();
 		String expectedName = LoginName;
 		Assert.assertEquals(expectedName, actualName);

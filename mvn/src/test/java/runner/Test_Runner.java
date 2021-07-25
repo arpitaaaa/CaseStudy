@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = {"src\\test\\resources\\FeatureFiles\\login.feature"}, 
 glue = {"StepDefinition"},
 monochrome = true, // to make console readable
-dryRun = false	,
+dryRun = true	,
 strict = true,
 // for reporting use below plugin
 plugin = {"html:testOutput/cucumber.html",

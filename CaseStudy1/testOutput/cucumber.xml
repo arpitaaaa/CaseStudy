@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="61.866">
+<testcase classname="Register New User" name="Register with valid input data" time="61.589">
+<system-out><![CDATA[Given I enter valid Url.....................................................passed
+And I click on SignUp.......................................................passed
+When I enter valid FirstName "New"..........................................passed
+And I enter valid LastName "Admin"..........................................passed
+And I enter valid Email "admin1@gmail.com"..................................passed
+And I enter valid UserName "Admin_1020".....................................passed
+And I enter valid Password "Admin_1"........................................passed
+And I enter valid ConfirmPassword "Admin_1".................................passed
+And I click on Register buttton.............................................passed
+Then I should registered successfully with Name "New Admin" and Email "admin1@gmail.com".passed
+Then I should compose Mail..................................................passed
+Then I should enter valid details and click on send button..................passed
+Then I should see acknowledgement message...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
